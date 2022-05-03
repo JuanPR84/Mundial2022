@@ -1,0 +1,620 @@
+@charset "utf-8";
+/* CSS Document */
+
+.col-pais{
+width:50%;
+display:inline-block;	
+float:left;
+padding:6px;
+}
+
+.col-seleccion-pais{
+width:50%;
+float:right;
+padding:5px 4% 0px;
+display:inline-block;		
+}
+
+.bg-grupos{
+	width: 100%;
+    margin-bottom: 30px;
+	height: auto;
+	float: left;
+	position: relative;
+	padding: 3px 3px;	
+	background:rgba(217,217,217,0.4);
+	background-size:cover;
+}
+
+.marcar-equipo{
+	display:inline-block;
+	vertical-align: middle;
+	padding: 0px;
+	margin: 0px;
+	width:100%;
+}
+
+.marcar-equipo ul{
+  list-style:none;
+  text-align:center;
+  display:inline-block;
+  float:left;
+}
+
+.marcar-equipo li{
+  padding:3px;
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  width:50%;
+  float:left;
+}
+
+.marco-grupo {
+    width: 100%;
+	background:rgba(217,217,217,0.4);	
+ }
+  /*=====equipo-face-1======*/
+  .equipo-face-1{
+	padding:3px;
+  	position: relative;
+  	right: 0px;	
+  	list-style:none;
+  	width:35px;
+  	height:35px;	
+  	margin:0px 0px;
+  	float:left;
+  	overflow: hidden;
+ 	text-align: center !important;  
+	  }
+	  
+  .equipo-face-1 img{
+	width:100%;
+	position:relative;
+	  }	  
+	  
+ .siglas-mundial{
+	font-family:;
+	font-size:14px;
+	margin-left:5px;
+	margin-top:8px;
+	float:left;
+	text-align:center;
+	font-weight:700;
+	vertical-align:middle;
+	position:relative;
+	  }	  
+	  
+ /*=====1er-2do======*/ 
+  .er-2do{
+	width:25px;
+  	height: auto;	
+  	margin:0px 4px;
+	text-align:center;
+	font-size:11px !important;
+	font-weight:700 !important;
+	float:left;
+	overflow-x:hidden;
+	position:relative;
+  }
+  
+ /*=====seleccion equipo 1er - 2do======*/ 
+ .marcar-1er-2do {
+	display:inline-block;
+	vertical-align: middle;
+	padding: 5px 0px;
+	margin: 0px;
+	float:left;
+}
+
+.marcar-1er-2do ul{
+  text-align: center !important ;
+  float:left;	
+}
+
+.marcar-1er-2do li{
+  border:2px solid #8D8D8D;
+  padding:3px;
+  position: relative;
+  right: 0px;	
+  list-style:none;
+  width:28px;
+  height: 28px;	
+  border-radius: 50%;	
+  margin:2px 2px;
+  float:left;
+  overflow: hidden;
+  text-align: center !important;  
+}
+
+.marcar-1er-2do {
+  position: relative;
+  vertical-align: 5px;  
+}
+
+.marcar-1er-2do .active{
+  border:2px solid rgba(90,97,115,1);	
+  background:rgba(90,97,115,0.7);	
+  padding:3px;
+}
+
+input[type=radio]{
+  display:none;
+}
+
+
+ /*=====OCTAVOS======*/ 
+ .octavos{
+	 position:relative;	 
+	 }
+	 
+ .linea-octavos-h{
+	 position:relative;	
+	 top:-8px;
+	 left:17.5px;
+	 width:60px;
+	 height:1px;
+	 background:rgba(90,97,115,1);
+	 }
+	 
+.linea-octavos-v{
+	 position:absolute;	
+	 left:22px;
+	 top:66px;
+	 width:1px;
+	 height:320px;
+	 background:rgba(90,97,115,1);
+	 }
+	 
+	 
+ .linea-octavos-h2{
+	 position:relative;	
+	 top:-8px;
+	 right:43px;
+	 width:60px;
+	 height:1px;
+	 background:rgba(90,97,115,1);
+	 }
+	 
+.linea-octavos-v2{
+	 position:absolute;	
+	 right:12.5px;
+	 top:66px;
+	 width:1px;
+	 height:320px;
+	 background:rgba(90,97,115,1);
+	 }	 	 
+	 	 
+.cuadro-octavos-izq{
+	margin:10px 0px;
+	width:35px;
+	position:relative;
+	padding:5px;
+	float:left
+	}
+	
+.cuadro-octavos-der{
+	margin:10px 0px;
+	width:35px;
+	position:relative;
+	padding:5px;
+	float:right
+	}	
+	
+.img-octavos{
+	width:35px;
+	height:35px;
+	padding:2px;
+	margin-bottom:15px;
+	border:1px solid rgba(90,97,115,1);
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	z-index:5;
+	}	
+	
+		 
+ /*=====CUARTOS======*/ 
+ .cuartos{
+	 position:absolute;
+	 top:20px;
+	 left:0px;
+	 }
+	 
+.linea-cuartos-h{
+	 position:relative;	
+	 top:-30px;
+	 left:21px;
+	 width:60px;
+	 height:1px;
+	 background:rgba(90,97,115,1);
+	 }
+	 
+.linea-cuartos-v{
+	 position:absolute;	
+	 left:25px;
+	 top:66px;
+	 width:1px;
+	 height:300px;
+	 background:rgba(90,97,115,1);
+	 }
+	 
+	 
+ .linea-cuartos-h2{
+	 position:relative;	
+	 top:-30px;
+	 right:38px;
+	 width:60px;
+	 height:1px;
+	 background:rgba(90,97,115,1);
+	 }
+	 
+.linea-cuartos-v2{
+	 position:absolute;	
+	 right:17.5px;
+	 top:66px;
+	 width:1px;
+	 height:300px;
+	 background:rgba(90,97,115,1);
+	 }	 	 
+	 
+.cuadro-cuartos-izq{
+	margin:10px 0px;
+	width:45px;
+	position:relative;
+	padding:5px;
+	float:left;
+	left:80px;
+	}
+	
+.cuadro-cuartos-der{
+	margin:10px 0px;
+	width:45px;
+	position:relative;
+	padding:5px;
+	float:right;
+	right:80px;
+	}	
+	
+.img-cuartos{
+	width:45px;
+	height:45px;
+	padding:2px;
+	margin-bottom:55px;
+	border:1px solid rgba(90,97,115,1);
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	z-index:4;
+	}	
+	
+	 
+ /*=====SEMI-FINALES======*/ 
+  .semi-finales{
+	 position:absolute;
+	 top:50px;
+	 left:0px;
+	 }
+	 
+	 
+.cuadro-semi-finales-izq{
+	margin:10px 0px;
+	width:55px;
+	position:relative;
+	padding:5px;
+	float:left;
+	left:165px;
+	}
+	
+.cuadro-semi-finales-der{
+	margin:10px 0px;
+	width:55px;
+	position:relative;
+	padding:5px;
+	float:right;
+	right:165px;
+	}	
+	
+.img-semi-finales{
+	width:55px;
+	height:55px;
+	padding:2px;
+	margin-bottom:140px;
+	border:1px solid rgba(90,97,115,1);
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	z-index:3;
+	}
+	
+ /*=====FINALES======*/ 
+ .finales{
+	 position:absolute;
+	 top:100px;
+	 left:0px;
+	 }
+	 
+	 
+.cuadro-finales-izq{
+	margin:10px 0px;
+	width:65px;
+	position:relative;
+	padding:5px;
+	float:left;
+	left:260px;
+	}
+	
+.cuadro-finales-der{
+	margin:10px 0px;
+	width:65px;
+	position:relative;
+	padding:5px;
+	float:right;
+	right:260px;
+	}	
+	
+.img-finales{
+	width:65px;
+	height:65px;
+	padding:2px;
+	margin-bottom:10px;
+	border:1px solid rgba(90,97,115,1);
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	z-index:2;
+	}
+	
+/*=====CAMPEON======*/ 
+ .campeon{
+	 position:absolute;
+	 /*top:50px;*/
+	 left:0px;
+	 margin:0px auto 30px;
+	 }
+	 	 
+.cuadro-campeon{
+	width:100px;	
+	position:relative;
+	padding:5px;
+	margin:0px auto;	
+	}
+	
+.txt-campeon{
+	width:auto;
+	color:rgba(255,255,255,1.00);
+	font-weight:700;
+	position:relative;
+	padding:5px;
+	font-size:15px !important;
+	margin:0px auto;
+	text-align:center;	
+	}
+	
+
+.img-campeon-prim{
+	width:90px;
+	height:90px;
+	padding:2px;
+	margin:0px auto 10px;
+	border:1px solid rgba(90,97,115,1);
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	}
+	
+.img-campeon-segu{
+	width:80px;
+	height:80px;
+	padding:2px;
+	margin:0px auto 10px;
+	border:1px solid rgba(90,97,115,1);
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	}
+	
+.img-campeon-ter{
+	width:65px;
+	height:65px;
+	padding:2px;
+	margin:0px auto 0px;
+	border:1px solid rgba(90,97,115,1);
+	-webkit-border-radius:50%;
+	   -moz-border-radius:50%;
+	        border-radius:50%;
+	overflow:hidden;
+	position:relative;
+	z-index:1;
+	}
+	
+@media (max-width:860px) and (min-width:300px){
+	.cuadro-cuartos-izq{
+	margin:10px 0px;
+	left:50px;
+	}
+	
+.cuadro-cuartos-der{
+	margin:10px 0px;
+	right:50px;
+	}
+	
+.cuadro-semi-finales-izq{
+	margin:10px 0px;
+	left:105px;
+	}
+	
+.cuadro-semi-finales-der{
+	margin:10px 0px;
+	right:105px;
+	}	
+	
+	
+.cuadro-finales-izq{
+	margin:10px 0px;
+	left:175px;
+	}
+	
+.cuadro-finales-der{
+	margin:10px 0px;
+	right:175px;
+	}		
+
+}
+@media (max-width:768px) and (min-width:300px){	
+.cuadro-cuartos-izq{
+	margin:10px 0px;
+	left:50px;
+	}
+	
+.cuadro-cuartos-der{
+	margin:10px 0px;
+	right:50px;
+	}
+	
+.cuadro-semi-finales-izq{
+	margin:10px 0px;
+	left:105px;
+	}
+	
+.cuadro-semi-finales-der{
+	margin:10px 0px;
+	right:105px;
+	}	
+	
+	
+.cuadro-finales-izq{
+	margin:10px 0px;
+	left:170px;
+	}
+	
+.cuadro-finales-der{
+	margin:10px 0px;
+	right:170px;
+	}		
+	
+.cuadro-finales-izq{
+	margin:10px 0px;
+	left:180px;
+	}
+	
+.cuadro-finales-der{
+	margin:10px 0px;
+	right:180px;
+	}	
+		
+}	
+
+@media (max-width:699px) and (min-width:300px){
+.cuadro-cuartos-izq{
+	margin:10px 0px;
+	left:45px;
+	}
+	
+.cuadro-cuartos-der{
+	margin:10px 0px;
+	right:45px;
+	}
+	
+.cuadro-semi-finales-izq{
+	margin:10px 0px;
+	left:95px;
+	}
+	
+.cuadro-semi-finales-der{
+	margin:10px 0px;
+	right:95px;
+	}	
+	
+	
+.cuadro-finales-izq{
+	margin:10px 0px;
+	left:160px;
+	}
+	
+.cuadro-finales-der{
+	margin:10px 0px;
+	right:160px;
+	}	
+}				
+	
+@media (max-width:560px) and (min-width:300px){
+.cuadro-cuartos-izq{
+	margin:10px 0px;
+	left:65px;
+	}
+	
+.cuadro-cuartos-der{
+	margin:10px 0px;
+	right:65px;
+	}
+	
+.cuadro-semi-finales-izq{
+	margin:10px 0px;
+	left:117px;
+	}
+	
+.cuadro-semi-finales-der{
+	margin:10px 0px;
+	right:117px;
+	}
+	
+.finales{
+	 position:absolute;
+	 top:520px;
+	 left:0px;
+	 }
+	 
+.cuadro-finales-izq{
+	margin:10px 0px;
+	left:5px;
+	}
+	
+.cuadro-finales-der{
+	margin:10px 0px;
+	right:5px;
+	}	 	
+	
+ .campeon{
+	 position:relative;
+	 top:-10px;
+	 left:0px;
+	 }		
+}
+
+@media (max-width:360px) and (min-width:300px){
+.cuadro-cuartos-izq{
+	margin:10px 0px;
+	left:45px;
+	}
+	
+.cuadro-cuartos-der{
+	margin:10px 0px;
+	right:45px;
+	}
+		
+	
+.cuadro-semi-finales-izq{
+	margin:10px 0px;
+	left:80px;
+	}
+	
+.cuadro-semi-finales-der{
+	margin:10px 0px;
+	right:80px;
+	}	
+}
